@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     // TODO: Colocar os metadata do meu blog ao final
-    title: `My Blog`,
+    title: `Jean Carlos Guimarães`,
     position: `Desenvolvedor Front-End`,
     description: `A blog about Front-End development and other cool stuff.`,
-    author: `Jean Carlos Guimarães`,
+    author: `@eumesmo`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
