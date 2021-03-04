@@ -24,7 +24,8 @@ const Profile = () => {
 
   return (
     <S.ProfileWrapper>
-      <S.ProfileLink>
+      {/* TODO: corrigir link */}
+      <S.ProfileLink to="/">
         <Avatar />
         <S.ProfileAuthor>
           {title}
