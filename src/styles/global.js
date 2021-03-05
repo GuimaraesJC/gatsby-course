@@ -62,20 +62,27 @@ const GlobalStyles = createGlobalStyle`
   	width: 100%;
   	height: auto;
   }
+
+  /* TODO: Tema (alterar cores) */
+  /* TODO: Colocar transição suave entre troca de temas */
   body.dark {
     --borders: #38444d;
     --texts: #8899a6;
     --postColor: #fff;
+    /* TODO: essa é a cor dos links */
     --highlight: #1fa1f2;
     --mediumBackground: #192734;
     --background: #16202c;
     --white: #fff;
     --black: #222;
   }
+
+  /* TODO: Tema (alterar cores light) */
   body.light {
     --borders: #dedede;
-    --postColor: #111;
-    --texts: #555555;
+    --texts: #111;
+    --postColor: #555;
+    /* TODO: essa é a cor dos links */
     --highlight: #1fa1f2;
     --mediumBackground: #f0f0f3;
     --background: #fff;
