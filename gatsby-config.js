@@ -9,6 +9,7 @@ module.exports = {
     position: `Desenvolvedor Front-End`,
     description: `A blog about Front-End development and other cool stuff.`,
     author: `@eumesmo`,
+    siteUrl: 'https://teste.com'
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -72,17 +73,21 @@ module.exports = {
       },
     },
     {
+      // TODO: Configurar de acordo com o site no ar
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Teste 123`,
+        short_name: `Teste 123`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        // TODO: Colocar a cor do bg dark
+        background_color: `#16202c`,
+        theme_color: `#16202c`,
+        // TODO: Verificar opções
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
