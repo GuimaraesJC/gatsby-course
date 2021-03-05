@@ -18,6 +18,7 @@ const SocialLinks = () => (
               title={link.label}
               target="_blank"
               rel="noopener noreferrer"
+              className={link.className}
             >
               <S.IconWrapper>
                 <Icon />

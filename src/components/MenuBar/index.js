@@ -41,7 +41,12 @@ const MenuBar = () => {
         >
           <Light />
         </S.MenuBarItem>
-        <S.MenuBarItem title="Ir para o topo">
+        <S.MenuBarItem
+          title="Ir para o topo"
+          onClick={() => {
+            window.scroll({ top: 0, behavior: 'smooth' })
+          }}  
+        >
           <Arrow />
         </S.MenuBarItem>
       </S.MenuBarGroup>

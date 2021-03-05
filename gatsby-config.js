@@ -9,7 +9,7 @@ module.exports = {
     position: `Desenvolvedor Front-End`,
     description: `A blog about Front-End development and other cool stuff.`,
     author: `@eumesmo`,
-    siteUrl: 'https://teste.com'
+    siteUrl: 'https://gatsby-course-jean.netlify.app'
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -79,9 +79,8 @@ module.exports = {
         name: `Teste 123`,
         short_name: `Teste 123`,
         start_url: `/`,
-        // TODO: Colocar a cor do bg dark
-        background_color: `#16202c`,
-        theme_color: `#16202c`,
+        background_color: `#2f3437`,
+        theme_color: `#2f3437`,
         // TODO: Verificar opções
         display: `minimal-ui`,
         // TODO: Mudar ícone
@@ -93,5 +92,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify-cms`
   ],
 }

@@ -6,10 +6,7 @@ export const PostItemLink = styled(Link)`
   color: var(--texts);
   display: flex;
   text-decoration: none;
-  
-  &:hover {
-    color: var(--highlight);
-  }`
+`
 
 export const PostItemWrapper = styled.section`
   align-items: center;
@@ -17,6 +14,10 @@ export const PostItemWrapper = styled.section`
   display: flex;
   padding: 2rem 3rem;
   width: 100%;
+
+  &:hover {
+    background-color: var(--postItemHover);
+  }
 
   ${media.lessThan("large")`
     align-items: flex-start;

@@ -63,31 +63,28 @@ const GlobalStyles = createGlobalStyle`
   	height: auto;
   }
 
-  /* TODO: Tema (alterar cores) */
   /* TODO: Colocar transição suave entre troca de temas */
   body.dark {
-    --borders: #38444d;
-    --texts: #8899a6;
+    --borders: #3e4245;
+    --texts: #eaebeb;
     --postColor: #fff;
-    /* TODO: essa é a cor dos links */
-    --highlight: #1fa1f2;
-    --mediumBackground: #192734;
-    --background: #16202c;
-    --white: #fff;
-    --black: #222;
+    --highlight: #4b88ad;
+    --postItemHover: #474c50;
+    --mediumBackground: #373c3f;
+    --background: #2f3437;
+    --youtube: #f00;
+    --linkedin: #0a66f2;
+    --instagram: #dd2a7b;
   }
 
-  /* TODO: Tema (alterar cores light) */
   body.light {
-    --borders: #dedede;
-    --texts: #111;
-    --postColor: #555;
-    /* TODO: essa é a cor dos links */
-    --highlight: #1fa1f2;
-    --mediumBackground: #f0f0f3;
+    --borders: #edecec;
+    --texts: #6c6a65;
+    --postColor: #37352f;
+    --highlight: #2eaadc;
+    --postItemHover: #efefee;
+    --mediumBackground: #f7f6f3;
     --background: #fff;
-    --white: #fff;
-    --black: #222;
   }
 `
 export default GlobalStyles

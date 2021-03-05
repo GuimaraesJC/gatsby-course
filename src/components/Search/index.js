@@ -20,8 +20,8 @@ const Search = () => (
     <InstantSearch searchClient={searchClient} indexName={algolia.indexName}>
       <SearchBox autoFocus translations={{ placeholder: 'Pesquisar...' }} />
       {/* TODO: Ver documentação do Stats */}
-      <Stats translations={{ stats(nbHits, timeSpentMs) {
-        return `${nbHits} encontrado em ${timeSpentMs}ms`
+      <Stats translations={{ stats(nbHits) {
+        return `${nbHits} resultados encontrados`
       } }} />
       <Hits hitComponent={Hit} />
     </InstantSearch>

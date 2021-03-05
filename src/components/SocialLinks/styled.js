@@ -8,6 +8,19 @@ export const SocialLinksWrapper = styled.nav`
   ${media.lessThan("large")`
     display: none;
   `}
+
+  .youtube:hover {
+    color: var(--youtube);
+    opacity: 0;
+  }
+
+  .linkedin:hover {
+    color: var(--linkedin);
+  }
+
+  .instagram:hover {
+    color: var(--instagram);
+  }
 `
 
 export const SocialLinksList = styled.ul`

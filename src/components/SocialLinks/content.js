@@ -1,23 +1,23 @@
 const links = [
   {
     label: 'Github',
-    url: 'https://github.com/GuimaraesJC'
-  },
-  {
-    label: "Twitter",
-    url: 'https://twitter.com',
+    url: 'https://github.com/GuimaraesJC',
+    className: ''
   },
   {
     label: "Youtube",
     url: 'https://www.youtube.com/meucanal',
+    className: 'youtube'
   },
   {
-    label: "Unsplash",
+    label: "LinkedIn",
     url: 'https://www.linkedin.com/in/guimaraesjean/',
+    className: 'linkedin'
   },
   {
     label: "Instagram",
     url: 'https://www.instagram.com/guimaraes.jean_/',
+    className: 'instagram'
   }  
 ]
 
