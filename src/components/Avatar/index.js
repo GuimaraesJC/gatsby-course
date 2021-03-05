@@ -19,6 +19,8 @@ const Avatar = () => {
     `
   )
 
+  // TODO: Mover imagens de avatar e ícone para a pasta static
+
   return <S.AvatarWrapper fluid={avatarImage.childImageSharp.fluid} />
 }
 
