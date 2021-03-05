@@ -11,7 +11,6 @@ export const SocialLinksWrapper = styled.nav`
 
   .youtube:hover {
     color: var(--youtube);
-    opacity: 0;
   }
 
   .linkedin:hover {

@@ -7,7 +7,7 @@ module.exports = {
     // TODO: Colocar os metadata do meu blog ao final
     title: `Jean Carlos Guimarães`,
     position: `Desenvolvedor Front-End`,
-    description: `A blog about Front-End development and other cool stuff.`,
+    description: `Escrevo um pouquinho do que aprendo sobre programação e algumas ideias que me ocorrem do nada.`,
     author: `@eumesmo`,
     siteUrl: 'https://gatsby-course-jean.netlify.app'
   },
