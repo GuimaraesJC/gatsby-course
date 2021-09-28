@@ -50,6 +50,8 @@ const GlobalStyles = createGlobalStyle`
   }
   * {
     box-sizing: border-box;
+
+    transition: all 0.2s;
   }
   body {
     background: #16202c;
